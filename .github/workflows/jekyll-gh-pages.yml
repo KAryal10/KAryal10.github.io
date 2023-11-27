@@ -1,0 +1,42 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 14
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build React App
+      run: npm run build
+
+    - name: Set up Jekyll
+      run: gem install bundler jekyll
+      if: success()
+
+    - name: Build Jekyll Site
+      run: jekyll build -s path/to/your/react/app/build -d path/to/your/jekyll/site
+
+    - name: Deploy to GitHub Pages
+      run: |
+        echo 'yourdomain.com' > path/to/your/jekyll/site/CNAME
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git add .
+        git commit -m "Deploy to GitHub Pages"
+        git push -u origin main:gh-pages
+
