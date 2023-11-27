@@ -1,4 +1,5 @@
 {
+  "homepage": "https://KAryal10.github.io/my-Website",
 
   "name": "my-app",
 
@@ -13,8 +14,6 @@
     "@testing-library/react": "^13.4.0",
 
     "@testing-library/user-event": "^13.5.0",
-
-    "gh-pages": "^6.1.0",
 
     "gsap": "^3.12.2",
 
@@ -31,6 +30,9 @@
   },
 
   "scripts": {
+    "predeploy": "npm run build",
+    
+    "deploy": "gh-pages -d build",
 
     "start": "react-scripts start",
 
@@ -77,6 +79,12 @@
       "last 1 safari version"
 
     ]
+
+  },
+
+  "devDependencies": {
+
+    "gh-pages": "^6.1.0"
 
   }
 
