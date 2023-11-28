@@ -29,7 +29,7 @@ function App() {
       <Navigation />
       <div className='home'>
         <Routes>
-          <Route path="/my-Website" element={<Home />} />
+          <Route path="my-Website" element={<Home />} />
           <Route path="resume" element={<Resume />} />
         </Routes> 
         <Footer />
