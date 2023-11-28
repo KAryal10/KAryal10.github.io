@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer-styles.css'
+import image from './github-mark.png'
+import imageLinkedin from './icon-logo-linkedin.png'
 
 export default function Footer() {
     return (    
@@ -8,10 +10,10 @@ export default function Footer() {
 
             <ul class="socials">
                 <li>
-                    <a href="http://linkedin.com/in/kritan-aryal-45ab55234" target="_blank"><img src="images/icon-logo-linkedin.png" alt="My LinkedIn" /></a>
+                    <a href="http://linkedin.com/in/kritan-aryal-45ab55234" target="_blank"><img src={imageLinkedin} alt="My LinkedIn Profile" /></a>
                 </li>
                 <li>
-                    <a href="https://twitter.com/christinatruong" target="_blank"><img src="images/icon-logo-twitter.png" alt="My Twitter profile" /></a>
+                    <a href="https://github.com/KAryal10" target="_blank"><img src={image} alt="My Github profile" /></a>
                 </li>
             </ul>
         </footer>
