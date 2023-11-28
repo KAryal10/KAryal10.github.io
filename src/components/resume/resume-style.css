@@ -1,0 +1,103 @@
+.home .resume header::before {
+    background: url(./bg-skyscraper.jpg) center;
+    background-position: 0px 45%;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+
+
+.resume-section {
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+    border-bottom: 2px dashed #d3d4d6;
+}
+.download-link {
+    position: fixed;
+    top: 80px;
+    right: 5px;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 1200px){
+    .download-link {
+        position: absolute;
+    }
+}
+@media screen and (max-width: 500px){
+    .resume header::before {
+        height: 200px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.6rem;
+    }
+} 
+
+/* Projects
+------------------------------------*/
+.project-item {
+    margin: 30px 0;
+}
+.project-item img {
+    width: 300px;
+}
+@media screen and (min-width:860px) {
+    .project-item {
+        display: flow-root;
+    }
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+}
+@media screen and (min-width:650px) and (max-width:859px) {
+    .project-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+    }
+    .project-item img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:500px){
+    .project-item img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Work Experience
+------------------------------------*/
+.work-item {
+    margin: 30px 0;
+}
+.work-details p {
+    margin: 0;
+}
+
+@media screen and (min-width: 860px) {
+    .work-item {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        column-gap: 20px;
+    }
+    .work-summary p:first-child {
+        margin-top: 0;
+    }
+}
+
+
+/* Education
+------------------------------------*/
+.education-item {
+    margin: 30px 0;
+}
+.education-item p {
+    margin: 0;
+}
