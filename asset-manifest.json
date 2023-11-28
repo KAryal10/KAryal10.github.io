@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my_Website/static/css/main.78f96d69.css",
-    "main.js": "/my_Website/static/js/main.6a4505e2.js",
-    "static/js/787.28cb0dcd.chunk.js": "/my_Website/static/js/787.28cb0dcd.chunk.js",
-    "static/media/bg-jeep.jpg": "/my_Website/static/media/bg-jeep.5be00c1088826dfb356c.jpg",
-    "static/media/bg-skyscraper.jpg": "/my_Website/static/media/bg-skyscraper.ee6a050c230c4b20789c.jpg",
-    "index.html": "/my_Website/index.html",
-    "main.78f96d69.css.map": "/my_Website/static/css/main.78f96d69.css.map",
-    "main.6a4505e2.js.map": "/my_Website/static/js/main.6a4505e2.js.map",
-    "787.28cb0dcd.chunk.js.map": "/my_Website/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/my_Website/src/static/css/main.dfffab25.css",
+    "main.js": "/my_Website/src/static/js/main.a360af7d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my_Website/src/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg-jeep.jpg": "/my_Website/src/static/media/bg-jeep.5be00c1088826dfb356c.jpg",
+    "static/media/bg-skyscraper.jpg": "/my_Website/src/static/media/bg-skyscraper.ee6a050c230c4b20789c.jpg",
+    "index.html": "/my_Website/src/index.html",
+    "main.dfffab25.css.map": "/my_Website/src/static/css/main.dfffab25.css.map",
+    "main.a360af7d.js.map": "/my_Website/src/static/js/main.a360af7d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my_Website/src/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78f96d69.css",
-    "static/js/main.6a4505e2.js"
+    "static/css/main.dfffab25.css",
+    "static/js/main.a360af7d.js"
   ]
 }
