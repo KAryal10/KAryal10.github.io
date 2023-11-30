@@ -15,7 +15,6 @@ export default function Navigation() {
     
     return ( 
         <div class="nav-menu">
-            
             <ul class="nav-links">
             { btnState && (
                 <ul class="nav-links">
