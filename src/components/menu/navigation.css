@@ -6,6 +6,7 @@
     position: absolute;
     top: 0px;
     right: 15px;
+    opacity: 0;
 }
 .container {
     display: inline-block;
