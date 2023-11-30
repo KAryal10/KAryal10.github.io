@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd3b53f0.css",
+    "main.css": "/static/css/main.c64883b6.css",
     "main.js": "/static/js/main.9c13b956.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/bg-jeep.jpg": "/static/media/bg-jeep.5be00c1088826dfb356c.jpg",
@@ -10,12 +10,12 @@
     "static/media/Kritan_Aryal_Resume.pdf": "/static/media/Kritan_Aryal_Resume.a979445289e1e192496f.pdf",
     "static/media/ball roll.png": "/static/media/ball roll.cf4926048ff72fcbbb2a.png",
     "index.html": "/index.html",
-    "main.cd3b53f0.css.map": "/static/css/main.cd3b53f0.css.map",
+    "main.c64883b6.css.map": "/static/css/main.c64883b6.css.map",
     "main.9c13b956.js.map": "/static/js/main.9c13b956.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd3b53f0.css",
+    "static/css/main.c64883b6.css",
     "static/js/main.9c13b956.js"
   ]
 }
