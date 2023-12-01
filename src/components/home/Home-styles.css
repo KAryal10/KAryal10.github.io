@@ -152,7 +152,7 @@ footer a:hover {
     flex-direction: column;
 }
 .home .index{
-    background: url(./bg-jeep.jpg) no-repeat;
+    background: url(./mountains.jpg) no-repeat;
     min-height: 96vh;
     background-size:cover;
     background-position: center;
