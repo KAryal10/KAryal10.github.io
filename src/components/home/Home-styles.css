@@ -42,14 +42,14 @@ h1, h2, h3 {
     margin: 0;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 0.85;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 /* links */
@@ -146,6 +146,8 @@ footer a:hover {
     opacity:100;
 } */
 
+
+
 .home {
     
     display: flex;
@@ -159,7 +161,7 @@ footer a:hover {
     /* display: flex;
     flex-direction: column; */
 }
- .content-wrapper {
+.content-wrapper {
     flex: 1 0 auto;
     padding-top: 0px;
 
@@ -178,7 +180,7 @@ footer a:hover {
     max-height: calc(100vh - 100px);
    
 }
-@media screen and (max-width:1250px){
+@media screen and (max-width:1275px){
     .home .content-wrapper {
      padding-top: 60px;
     }

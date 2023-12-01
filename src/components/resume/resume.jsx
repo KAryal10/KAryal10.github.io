@@ -7,11 +7,11 @@ import geometric from './geometric.png'
 
 export default function Resume() {
     return ( 
-           <div class='resume'>
+           <div class="resume">
                     <a class="btn download-link" href={Pdf} download>Download PDF</a>
             {/* <!-- //  INTRO  // --> */}
             <header>
-              <div class="content-wrapper">
+              <div class="head-content-wrapper">
                 <h1>Kritan Aryal</h1>
                 <h2>B.S. Computer Science</h2>
               </div>

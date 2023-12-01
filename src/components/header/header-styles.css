@@ -16,9 +16,15 @@
     position:absolute;
     font-family: 'Antic Didone', serif;
     color: #000;
-    font-size: 40px;
-    top: 5px;
-    left: 16px;
+    font-size: 30px;
+    padding : 20px;
+    /* left: 16px; */
     opacity:0;
 }
 
+@media screen and (max-width:575px){
+    .display-name {
+        font-size: 25px;
+
+    }
+}

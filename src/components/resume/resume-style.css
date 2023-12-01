@@ -7,6 +7,12 @@
     height: 375px;
 }
 
+.resume .head-content-wrapper {
+    
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
 
 .resume-section {
     margin-bottom: 50px;
