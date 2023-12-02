@@ -172,11 +172,23 @@ footer a:hover {
     min-height: 300px;
     max-height: calc(100vh - 100px);
     display: flex;
+    flex-direction: column;
     overflow: auto;
     flex: 1 0 auto;
+    text-align: center;
+}
+.content-bg header h1 {
+    font-family: 'Antic Didone', serif;
+}
+img {
+    border-radius: 50%;
+    width: 10em;
+    margin: 40px auto 0px auto;
+    
+   
 }
 .content-inside {
-    padding:60px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
     max-height: calc(100vh - 100px);
    
 }
