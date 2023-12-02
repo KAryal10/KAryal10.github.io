@@ -38,15 +38,15 @@ export default function Intro() {
         <div> 
             <div class="intro" ref={begin}>
                 <div class="intro-text" >
-                    <h1 class="hide">
+                    <div class="hide">
                     <span class="text">H I !</span>
-                    </h1>
-                    <h1 class="hide">
+                    </div>
+                    <div class="hide">
                     <span class="text">T H I S&ensp;I S</span>
-                    </h1>
-                    <h1 class="hide">
+                    </div>
+                    <div class="hide">
                     <span class="text"  ref={begin}>K R I T A N&ensp;A R Y A L</span>
-                    </h1>
+                    </div>
                 </div>
             </div>
             <div class="slider"  ref={begin}></div>

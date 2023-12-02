@@ -14,6 +14,7 @@
 .text {
     padding:20px;
     font-size: 3rem;
+    font-weight: 400;
     font-family: 'Antic Didone', serif;
 }
 
@@ -40,4 +41,9 @@
 .hide span {
     transform: translateY(100%);
     display: inline-block;
+}
+@media screen and (max-width:550px){
+    .text {
+        font-size: 2.2rem;
+    }
 }

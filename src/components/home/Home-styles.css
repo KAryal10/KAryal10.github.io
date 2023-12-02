@@ -180,6 +180,9 @@ footer a:hover {
     max-height: calc(100vh - 100px);
    
 }
+.home-content {
+    text-align: justify;
+}
 @media screen and (max-width:1275px){
     .home .content-wrapper {
      padding-top: 60px;
@@ -197,6 +200,17 @@ footer a:hover {
 @media screen and (max-width:650px){
     .home .content-wrapper {
         padding: 60px 60px 60px 60px;
+    }
+    .content-bg {
+        padding: 40px;
+    }
+    .content-inside {
+        padding:0px;
+    }
+}
+@media screen and (max-width:500px){
+    .home .content-wrapper {
+        padding: 70px 0px 60px 0px;
     }
     .content-bg {
         padding: 40px;
