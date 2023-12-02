@@ -4,6 +4,7 @@ import Pdf from './Kritan_Aryal_Resume.pdf'
 import ballRollImg from './ball roll.png'
 import website from './website.png'
 import geometric from './geometric.png'
+import { Link } from 'react-router-dom';
 
 export default function Resume() {
     return ( 
@@ -23,7 +24,7 @@ export default function Resume() {
                 <h2>Profile</h2>
                 <p> I am currently a junior majoring in B.S Computer Science. </p>
                 
-                <a href="index.html">Back to homepage</a>
+                <Link to ="/" >Back to homepage</Link>
               </section>
 
               {/* <!-- //  PROJECTS  // --> */}
