@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0d6d29a.css",
-    "main.js": "/static/js/main.1ff9eeca.js",
+    "main.css": "/static/css/main.34c840b0.css",
+    "main.js": "/static/js/main.9d153a14.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/website.png": "/static/media/website.4665fc6bf09a78a9c47e.png",
     "static/media/bg-skyscraper.jpg": "/static/media/bg-skyscraper.ee6a050c230c4b20789c.jpg",
@@ -9,13 +9,14 @@
     "static/media/geometric.png": "/static/media/geometric.079a0f251ba08f78a70f.png",
     "static/media/Kritan_Aryal_Resume.pdf": "/static/media/Kritan_Aryal_Resume.a979445289e1e192496f.pdf",
     "static/media/ball roll.png": "/static/media/ball roll.cf4926048ff72fcbbb2a.png",
+    "static/media/IMG_6218.jpeg": "/static/media/IMG_6218.63019300998b1301b9be.jpeg",
     "index.html": "/index.html",
-    "main.b0d6d29a.css.map": "/static/css/main.b0d6d29a.css.map",
-    "main.1ff9eeca.js.map": "/static/js/main.1ff9eeca.js.map",
+    "main.34c840b0.css.map": "/static/css/main.34c840b0.css.map",
+    "main.9d153a14.js.map": "/static/js/main.9d153a14.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0d6d29a.css",
-    "static/js/main.1ff9eeca.js"
+    "static/css/main.34c840b0.css",
+    "static/js/main.9d153a14.js"
   ]
 }
