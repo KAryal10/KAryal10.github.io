@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8cfe33c9.css",
-    "main.js": "/static/js/main.98096e12.js",
+    "main.css": "/static/css/main.b0d6d29a.css",
+    "main.js": "/static/js/main.1ff9eeca.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/website.png": "/static/media/website.4665fc6bf09a78a9c47e.png",
     "static/media/bg-skyscraper.jpg": "/static/media/bg-skyscraper.ee6a050c230c4b20789c.jpg",
@@ -10,12 +10,12 @@
     "static/media/Kritan_Aryal_Resume.pdf": "/static/media/Kritan_Aryal_Resume.a979445289e1e192496f.pdf",
     "static/media/ball roll.png": "/static/media/ball roll.cf4926048ff72fcbbb2a.png",
     "index.html": "/index.html",
-    "main.8cfe33c9.css.map": "/static/css/main.8cfe33c9.css.map",
-    "main.98096e12.js.map": "/static/js/main.98096e12.js.map",
+    "main.b0d6d29a.css.map": "/static/css/main.b0d6d29a.css.map",
+    "main.1ff9eeca.js.map": "/static/js/main.1ff9eeca.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cfe33c9.css",
-    "static/js/main.98096e12.js"
+    "static/css/main.b0d6d29a.css",
+    "static/js/main.1ff9eeca.js"
   ]
 }
