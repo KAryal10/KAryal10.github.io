@@ -5,6 +5,7 @@ import ballRollImg from './ball roll.png'
 import website from './website.png'
 import geometric from './geometric.png'
 import { Link } from 'react-router-dom';
+import Popup from 'reactjs-popup';
 
 export default function Resume() {
     return ( 
@@ -104,8 +105,28 @@ export default function Resume() {
 
                 <section class="education-item">
                   <h3>The University of Toledo - Toledo,Ohio</h3>
-                  <p>Bachelor of Science: Computer Science and Engineering </p>
-                  <a class="btn" href="" target="_blank">Unofficial Transcript</a>
+                  <p>Bachelor of Science: Computer Science </p>
+
+                  <Popup trigger=
+                  {<button class="btn"> Unofficial transcript </button>}
+                  modal nested>
+                {
+                    close => (
+                        <div class="content-bg"> 
+                            <div>
+                                <p>Please email at kritan.aryal@rockets.utoledo.edu to request for the unofficial transcript.</p>
+                            </div>
+                            <div>
+                                <button onClick=
+                                    {() => close()}>
+                                        Done
+                                </button>
+                            </div>
+                        </div>
+                    )
+                }
+                  </Popup>
+                  
                 </section>
               </section>
 
