@@ -4,7 +4,7 @@ import Pdf from './Kritan_Aryal_Resume.pdf'
 import ballRollImg from './ball roll.png'
 import website from './website.png'
 import geometric from './geometric.png'
-import loading from './coming-soon.jpg'
+import loading from './noimg.jpeg'
 import { Link } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 
