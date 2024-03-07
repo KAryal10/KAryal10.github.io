@@ -36,9 +36,15 @@ export default function Resume() {
                 <div class="project-wrapper">
 
                     <section class="project-item">
-                        <img src={loading}  alt="Tower of Hanoi" />
-                        <h3>Tower of Hanoi</h3>
-                        <p>I created an efficient algorithm in Java, leveraging my strong recursion proficiency to elegantly solve a complex puzzle. The solution demonstrated my in-depth understanding of algorithmic principles and showcased my problem-solving skills. By implementing an effective and elegant algorithm, I highlighted my ability to translate complex coding concepts into practical solutions that deliver results. Overall, the project was a significant accomplishment, providing a clear picture of my coding abilities and my proficiency in developing efficient and effective solutions for complex problems.</p>
+                      <img src={loading}  alt="AR interaction" />
+                      <h3>Immersive AR Interaction</h3>
+                      <p>Constructed an innovative augmented reality (AR) experience for VisionOS, skillfully merging Unity's assets with RealityKit and Swift to craft a user-friendly interface. This project not only demonstrates my proficiency in AR game development but also showcases expertise in user interaction design. By seamlessly integrating these technologies, the result is an immersive experience that transcends traditional boundaries, reflecting my commitment to pushing the boundaries of technology for a more engaging and dynamic user experience.</p>
+                        
+                    </section>
+                    <section class="project-item">
+                      <img src={loading}  alt="Tower of Hanoi" />
+                      <h3>Tower of Hanoi</h3>
+                      <p>I created an efficient algorithm in Java, leveraging my strong recursion proficiency to elegantly solve a complex puzzle. The solution demonstrated my in-depth understanding of algorithmic principles and showcased my problem-solving skills. By implementing an effective and elegant algorithm, I highlighted my ability to translate complex coding concepts into practical solutions that deliver results. Overall, the project was a significant accomplishment, providing a clear picture of my coding abilities and my proficiency in developing efficient and effective solutions for complex problems.</p>
                         
                     </section>
 
