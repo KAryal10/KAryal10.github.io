@@ -89,10 +89,12 @@ export default function Resume() {
                   
                   <div class="work-summary">
                     <ul>
-                      <li> Conducted daily throughput analysis utilizing real-time data from SQL databases within JMP statistical software to achieve throughput goals. Regularly presented findings and insights to the team.</li>
-                      <li> Designed customized JMP Scripts to facilitate real-time data monitoring, significantly improving critical process tracking.</li>
-                      <li> Engineered specialized tools using SolidWorks, enabling metal arms of automated machines to swing inside, granting workers safe access to cleaning procedures. Pioneered a solution ensuring heightened safety standards within the workspace.</li>
-                      <li> Implemented a Python-based automated parts ordering system for hot swap cabinets, streamlining the procurement process by seamlessly placing orders and enhancing efficiency and accuracy in part management.</li>
+                        <li>Built a Python program to automate the retrieval of warehouse stock reports from Oracle and order parts accordingly using selenium form web scraping, leading to 90% improvement in parts availability and 83% reduction in downtime.</li>
+                        <li>Developed specialized JMP scripts for edge seal dispenser extracting data from SQL, delivering precise shot weights and ratio of each nozzle head, including control limit and specification limit, resulting in accurate data accessibility.</li>
+                        <li>Boosted module data retrieval speed by 3 times by integrating a SubID search feature in FIN1 JMP script.</li>
+                        <li>Debugged and revitalized 10+ scripts, rescuing valuable codes ensuring seamless compatibility with newer JMP versions.</li>
+                        <li>Conducted a DMAIC analysis to address low throughputs during shift changes using fishbone and 5 Whys methodologies to identify bottlenecks and implemented targeted solutions to achieve a 14% increase in throughput.</li>
+                        <li>Engineered specialized tools using SolidWorks to ensure worker safety when cleaning automated machines, creating a safer workspace, and mitigating the risk of work-related accidents and promoting a culture of safety-first.</li>
                     </ul>
                     </div>
                 </section>
@@ -107,8 +109,8 @@ export default function Resume() {
                   <div class="work-summary">
                     
                     <ul>
-                      <li>Initiated effective communication with university alumni to gather insights on their university experiences. Successfully persuaded alumni to actively participate in and contribute to the foundation, fostering a stronger sense of community support</li>
-                      <li>Collaborated closely with multiple clients daily, demonstrating strong teamwork and communication skills. Played a pivotal role in conducting a successful fundraising campaign, raising $1.9 million during the University of Toledo’s Giving Day.</li>
+                      <li>Initiated effective communication with university alumni, conducting surveys that resulted in a 20% increase in participation and a 15% boost in contributions to the foundation, fostering a stronger sense of community support.</li>
+                      <li>Demonstrated strong teamwork, and communication playing a pivotal role in conducting a successful fundraising campaign, raising $1.9 million during the Giving Day, surpassing previous year’s total by 46%.</li>
                     </ul>
                   </div>
                 </section>
