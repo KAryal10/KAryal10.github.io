@@ -4,6 +4,7 @@ import Pdf from './Kritan_Aryal_Resume.pdf'
 import ballRollImg from './ball roll.png'
 import website from './website.png'
 import geometric from './geometric.png'
+import loading from './coming-soon.jpg'
 import { Link } from 'react-router-dom';
 import Popup from 'reactjs-popup';
 
@@ -33,6 +34,21 @@ export default function Resume() {
                 <h2>Projects</h2>
 
                 <div class="project-wrapper">
+
+                    <section class="project-item">
+                        <img src={loading}  alt="Tower of Hanoi" />
+                        <h3>Tower of Hanoi</h3>
+                        <p>I created an efficient algorithm in Java, leveraging my strong recursion proficiency to elegantly solve a complex puzzle. The solution demonstrated my in-depth understanding of algorithmic principles and showcased my problem-solving skills. By implementing an effective and elegant algorithm, I highlighted my ability to translate complex coding concepts into practical solutions that deliver results. Overall, the project was a significant accomplishment, providing a clear picture of my coding abilities and my proficiency in developing efficient and effective solutions for complex problems.</p>
+                        
+                    </section>
+
+                   <section class="project-item">
+                    <img src={loading}  alt="Amusement Park Simulation" />
+                    <h3>Amusement Park Simulation</h3>
+                    <p>With expert knowledge in system simulation and advanced data structures, I engineered a cutting-edge Amusement Park Simulation in Java, effectively modeling every aspect of the park's operations from dawn till dusk. The project involved meticulously modeling rides, visitor behavior, and park operations using advanced simulation tools, resulting in a highly sophisticated solution and an outstanding display of my coding expertise. Overall, the project was incredibly rewarding, allowing me to leverage my advanced technical skills to create a one-of-a-kind simulation of an amusement park that could potentially be used for real-life applications.</p>
+                    
+                  </section>
+                    
                   <section class="project-item">
                     <img src={ballRollImg}  alt="ball roll game" />
                     <h3>Roll the Ball Game</h3>
