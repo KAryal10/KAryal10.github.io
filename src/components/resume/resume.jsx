@@ -1,6 +1,6 @@
 import React from 'react';
 import './resume-style.css'
-import Pdf from './Kritan_Aryal_Resume.pdf'
+import Pdf from './Resume - Kritan Aryal.pdf'
 import ballRollImg from './ball roll.png'
 import website from './website.png'
 import geometric from './geometric.png'
@@ -20,11 +20,42 @@ export default function Resume() {
               </div>
             </header>
 
+            {/* <!-- //  EDUCATION   // --> */}
+            <section class="resume-section">
+                <h2>Education</h2>
+
+                <section class="education-item">
+                  <h3>The University of Toledo - Toledo,Ohio</h3>
+                  <p>Bachelor of Science: Computer Science </p>
+
+                  <Popup trigger=
+                  {<button class="btn"> Unofficial transcript </button>}
+                  modal nested>
+                {
+                    close => (
+                        <div class="content-bg"> 
+                            <div>
+                                <p>Please email at kritan.aryal@rockets.utoledo.edu to request for the unofficial transcript.</p>
+                            </div>
+                            <div>
+                                <button onClick=
+                                    {() => close()}>
+                                        Done
+                                </button>
+                            </div>
+                        </div>
+                    )
+                }
+                  </Popup>
+                  
+                </section>
+              </section>
+
             <main class="content-wrapper">
               {/* <!-- //  PROFILE  // --> */}
               <section class="resume-section">
                 <h2>Profile</h2>
-                <p> I am currently a junior majoring in B.S Computer Science. </p>
+                <p> I am a senior majoring in B.S Computer Science. I will be graduating in December 2025. </p>
                 
                 <Link to ="/" >Back to homepage</Link>
               </section>
@@ -34,6 +65,35 @@ export default function Resume() {
                 <h2>Projects</h2>
 
                 <div class="project-wrapper">
+
+                    
+                    <section class="project-item">
+                      <img src={loading}  alt="Desk Robot Pet" />
+                      <h3>Desk Robot Pet</h3>
+                      <p>Created an interactive desk robot using Micro:bit and Python, featuring advanced functionalities such as temperature sensing and radio communication. Also, implemented functions to maintain a state of contentment with continuous interaction, display frustration based on gesture, and offers a fully functional Snake game.</p>
+                    
+                    </section>
+                    
+                    <section class="project-item">
+                      <img src={loading}  alt="Airline Reservation System" />
+                      <h3>Airline Reservation System</h3>
+                      <p>Implemented a comprehensive Airline system using Python, facilitating functionalities such as seat reservation and cancellation, reservation detail search, seat availability display, and waitlist with distinct function for both admin and guest users.</p>
+                    
+                    </section>
+
+                    <section class="project-item">
+                      <img src={loading}  alt="Smartcash" />
+                      <h3>Smartcash</h3>
+                      <p>Created a website in HackPSU using React, Python, and MongoDB to develop a budgeting tool that predicts future balances and warns if balance is projected to go negative, highlighting expertise in AI integration, and database management.</p>
+                    
+                    </section>
+                    
+                    <section class="project-item">
+                      <img src={loading}  alt="ReEdu" />
+                      <h3>ReEdu</h3>
+                      <p>Developed a lecture summarization platform in HackPrinceton using WhisperAI to encourage student comprehension and facilitate quick assessment of student understanding, emphasizing tailored teaching approaches satisfying student needs.</p>
+                    
+                    </section>
 
                     <section class="project-item">
                       <img src={loading}  alt="AR interaction" />
@@ -52,13 +112,6 @@ export default function Resume() {
                     <img src={loading}  alt="Amusement Park Simulation" />
                     <h3>Amusement Park Simulation</h3>
                     <p>With expert knowledge in system simulation and advanced data structures, I engineered a cutting-edge Amusement Park Simulation in Java, effectively modeling every aspect of the park's operations from dawn till dusk. The project involved meticulously modeling rides, visitor behavior, and park operations using advanced simulation tools, resulting in a highly sophisticated solution and an outstanding display of my coding expertise. Overall, the project was incredibly rewarding, allowing me to leverage my advanced technical skills to create a one-of-a-kind simulation of an amusement park that could potentially be used for real-life applications.</p>
-                    
-                  </section>
-                    
-                  <section class="project-item">
-                    <img src={ballRollImg}  alt="ball roll game" />
-                    <h3>Roll the Ball Game</h3>
-                    <p>In the creation of my ball-rolling game using Blueprint and C++ in Unreal Engine 5, I seamlessly blended programming prowess with a keen focus on user engagement. The game not only showcases technical proficiency but also emphasizes the importance of precision and strategy. By meticulously designing a set of instructions for players to follow, I transformed the gaming experience into a challenging yet rewarding journey. The use of Unreal Engine 5 allowed for stunning visuals and smooth gameplay mechanics, enhancing the overall immersion. Through thoughtful level design and intricate coding, players must navigate the virtual environment with precision, mastering the art of control to achieve victory. This project not only highlights my expertise in game development but also underscores my commitment to crafting an engaging user experience that captivates players and fosters a sense of accomplishment upon successful completion of the game's challenges.</p>
                     
                   </section>
 
@@ -88,9 +141,29 @@ export default function Resume() {
 
                 <section class="work-item">
                   <div class="work-details">
+                    <h3>Software Engineering Intern - MES</h3>
+                    <p>First Solar Inc.</p>
+                    <p>May 2024 - Present</p>
+                  </div>
+                  
+                  <div class="work-summary">
+                    <ul>
+                        <li>Led the transformation of the ScrapStation webapp, modifying dot net and related NuGet packages with a new process ordering logic which resolved issues of running processes twice and eliminated process-related scrap issues.</li>
+                        <li>Addressed critical ScrapStation bugs by prioritizing configuration retrieval to prevent null value comparison, integrating dropdowns with loading animation to prevent value resets, and incorporating hash keys to resolve cache problems.</li>
+                        <li>Effectively executed remote server updates, conducting meticulous software installations, reboots, and service restorations, while constantly monitoring rework, resulting in successful completion of a server patch.</li>
+                        <li>Developed a highly efficient navigational menu with Ignition for MES Dashboards, consolidating all dashboard resources into a single platform, resulting in easier accessibility for critical data and improved user experience.</li>
+                        <li>Created and integrated new pages into various web applications using Ignition, ensuring alignment with design requirements and seamlessly incorporating data from provided tags.</li>
+                        <li>Developed a stored procedure and job in SSMS to monitor job executions, identifying and notifying the team of any job failing three consecutive times, significantly improving error tracking and team responsiveness.</li>
+                        <li>Consistently resolved numerous tickets each week, which included tasks such as modifying/updating/creating tables and data, history tables, triggers, data custodian tasks, and handling other database management responsibilities.</li>
+                    </ul>
+                    </div>
+                </section>
+                
+                <section class="work-item">
+                  <div class="work-details">
                     <h3>Manufacturing Engineering Intern</h3>
                     <p>First Solar Inc.</p>
-                    <p>August 2023 - Present</p>
+                    <p>August 2023 - April 2024</p>
                   </div>
                   
                   <div class="work-summary">
@@ -119,38 +192,6 @@ export default function Resume() {
                       <li>Demonstrated strong teamwork, and communication playing a pivotal role in conducting a successful fundraising campaign, raising $1.9 million during the Giving Day, surpassing previous year’s total by 46%.</li>
                     </ul>
                   </div>
-                </section>
-              </section>
-
-
-              {/* <!-- //  EDUCATION   // --> */}
-              <section class="resume-section">
-                <h2>Education</h2>
-
-                <section class="education-item">
-                  <h3>The University of Toledo - Toledo,Ohio</h3>
-                  <p>Bachelor of Science: Computer Science </p>
-
-                  <Popup trigger=
-                  {<button class="btn"> Unofficial transcript </button>}
-                  modal nested>
-                {
-                    close => (
-                        <div class="content-bg"> 
-                            <div>
-                                <p>Please email at kritan.aryal@rockets.utoledo.edu to request for the unofficial transcript.</p>
-                            </div>
-                            <div>
-                                <button onClick=
-                                    {() => close()}>
-                                        Done
-                                </button>
-                            </div>
-                        </div>
-                    )
-                }
-                  </Popup>
-                  
                 </section>
               </section>
 
