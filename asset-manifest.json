@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.c00ed173.css",
-    "main.js": "/static/js/main.0c46dfda.js",
+    "main.js": "/static/js/main.95386d15.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/website.png": "/static/media/website.4665fc6bf09a78a9c47e.png",
     "static/media/bg-skyscraper.jpg": "/static/media/bg-skyscraper.ee6a050c230c4b20789c.jpg",
     "static/media/mountains.jpg": "/static/media/mountains.bdf41e7b83a2a6bb2d17.jpg",
-    "static/media/Kritan_Aryal_Resume.pdf": "/static/media/Kritan_Aryal_Resume.c29c30a92d2806e0ea84.pdf",
     "static/media/geometric.png": "/static/media/geometric.079a0f251ba08f78a70f.png",
     "static/media/ball roll.png": "/static/media/ball roll.cf4926048ff72fcbbb2a.png",
+    "static/media/Resume - Kritan Aryal.pdf": "/static/media/Resume - Kritan Aryal.a02f9cc12a9721b48a35.pdf",
     "static/media/IMG_6218.jpeg": "/static/media/IMG_6218.63019300998b1301b9be.jpeg",
     "static/media/noimg.jpeg": "/static/media/noimg.f147cce9b72afa444184.jpeg",
     "index.html": "/index.html",
     "main.c00ed173.css.map": "/static/css/main.c00ed173.css.map",
-    "main.0c46dfda.js.map": "/static/js/main.0c46dfda.js.map",
+    "main.95386d15.js.map": "/static/js/main.95386d15.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c00ed173.css",
-    "static/js/main.0c46dfda.js"
+    "static/js/main.95386d15.js"
   ]
 }
